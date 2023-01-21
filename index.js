@@ -24,42 +24,42 @@ document.addEventListener("keydown" , function (event) {
 function makeSound(key) {
     switch (key) {
         case "w":
-            numberoflisterner = new Audio("sounds/tom-1.mp3");
+            numberoflisterner = new Audio("/drumkit/tom-1.mp3");
             numberoflisterner.play();
 
             break;
         case "a":
-            numberoflisterner = new Audio("sounds/tom-2.mp3");
+            numberoflisterner = new Audio("/drumkit/tom-2.mp3");
             numberoflisterner.play();
 
             break;
 
         case "s":
-            numberoflisterner = new Audio("sounds/tom-3.mp3");
+            numberoflisterner = new Audio("/drumkit/tom-3.mp3");
             numberoflisterner.play();
 
             break;
 
         case "d":
-            numberoflisterner = new Audio("sounds/tom-4.mp3");
+            numberoflisterner = new Audio("/drumkit/tom-4.mp3");
             numberoflisterner.play();
 
             break;
 
         case "j":
-            numberoflisterner = new Audio("sounds/snare.mp3");
+            numberoflisterner = new Audio("/drumkit/snare.mp3");
             numberoflisterner.play();
 
             break;
 
         case "k":
-            numberoflisterner = new Audio("sounds/kick-bass.mp3");
+            numberoflisterner = new Audio("/drumkit/kick-bass.mp3");
             numberoflisterner.play();
 
             break;
 
         case "l":
-            numberoflisterner = new Audio("sounds/crash.mp3");
+            numberoflisterner = new Audio("/drumkit/crash.mp3");
             numberoflisterner.play();
 
             break;
